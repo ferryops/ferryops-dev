@@ -21,12 +21,13 @@ export default function RepoPage() {
           setValue((v) => (v >= 100 ? 0 : v + 10));
         }, 500);
         setTimeout(() => {
-          setLoading(false);
           clearInterval(interval);
         }, 3000);
+        setLoading(false);
       })
       .catch((error) => {
         console.log(error);
+        setLoading(true);
       });
 
     return () => clearInterval(interval);

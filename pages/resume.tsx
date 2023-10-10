@@ -22,7 +22,7 @@ export default function ResumePage() {
             </p>
             <h4 className={subtitle()}>Pengalaman Kerja</h4>
             {siteConfig.pengalaman.map((data, index) => (
-              <Card key={index} className="mb-4">
+              <Card key={index} className="mb-4 mx-4">
                 <CardHeader className="flex gap-3">
                   <div className="flex justify-between w-full">
                     <div className="text-left">

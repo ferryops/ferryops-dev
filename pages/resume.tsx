@@ -15,7 +15,7 @@ export default function ResumePage() {
           <h1 className={title({ size: "sm", color: "violet" })}>Ananda&nbsp;</h1>
           <h1 className={title({ size: "sm" })}>Febian</h1>
           <h4 className={subtitle({ class: "mt-4" })}>Software Engineer | Blogger 🚀</h4>
-          <article className="flex flex-col gap-2">
+          <article className="flex flex-col gap-2 px-6">
             <p>
               Halo, aku Ferry, suka mencoba sesuatu hal yang baru, kesibukan saat ini sebagai web developer, aku juga menekuni
               dunia open source dan juga aktif menulis tutorial di web pribadi ataupun forum diskusi.

@@ -22,8 +22,8 @@ export default function RepoPage() {
         }, 500);
         setTimeout(() => {
           clearInterval(interval);
+          setLoading(false);
         }, 3000);
-        setLoading(false);
       })
       .catch((error) => {
         console.log(error);

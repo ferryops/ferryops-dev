@@ -53,8 +53,7 @@ export const siteConfig = {
       position: "JavaScript Developer",
       duration: "Aug 2023 - Present",
       tools: ["React.js", "Node.js", "GIS", "MySQL"],
-      description:
-        "Bertanggung jawab merancang antarmuka web dengan ekosistem React, Pengembangan Back-End dengan Node.js, Integrasi API.",
+      description: "Merancang antarmuka web, Mengembangkan Back-End dan Integrasi API.",
     },
     {
       company: "PT Media Kreasi Abadi",
@@ -80,5 +79,16 @@ export const siteConfig = {
       description:
         "Berkesempatan menjadi mentee dalam program Digitalent Regional Internship sebagai Back end Developer, disini aku banyak belajar cara membuat dashboard dan Bot telegram dengan PHP Native.",
     },
+  ],
+
+  quotes: [
+    { quotes: "Selama manusia ada, benci juga akan ada", creator: "Pain" },
+    {
+      quotes: "Aku akan menghancurkan Kutukan itu. Jika memang ada hal yang bernama perdamaian, aku akan menemukannya!",
+      creator: "Pain",
+    },
+    { quotes: "Biar hanya permainan, kamu tidak boleh curang.", creator: "Doraemon" },
+    { quotes: "Agar tali silaturahmi tidak terputus, pinjam dulu seratus", creator: "kang pinjam" },
+    { quotes: "Puh sepuh, ajarin dong puh", creator: "yondatau" },
   ],
 };

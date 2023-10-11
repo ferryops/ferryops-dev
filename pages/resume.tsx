@@ -9,20 +9,20 @@ import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Image, Chip } fr
 export default function ResumePage() {
   return (
     <DefaultLayout>
-      <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-        <div className="inline-block max-w-xl text-center justify-center">
+      <section className="flex flex-col items-center justify-center gap-8 md:py-10">
+        <div className="text-center justify-center">
           <h1 className={title({ size: "sm" })}>Ferry &nbsp;</h1>
           <h1 className={title({ size: "sm", color: "violet" })}>Ananda&nbsp;</h1>
           <h1 className={title({ size: "sm" })}>Febian</h1>
           <h4 className={subtitle({ class: "mt-4" })}>Software Engineer | Blogger 🚀</h4>
-          <article className="flex flex-col gap-2 px-6">
-            <p>
+          <article className="flex flex-col gap-2 max-w-4xl">
+            <span>
               Halo, aku Ferry, suka mencoba sesuatu hal yang baru, kesibukan saat ini sebagai web developer, aku juga menekuni
               dunia open source dan juga aktif menulis tutorial di web pribadi ataupun forum diskusi.
-            </p>
-            <h4 className={subtitle()}>Pengalaman Kerja</h4>
+            </span>
+            <h4 className={subtitle()}>Pengalaman Kerja &#9203;</h4>
             {siteConfig.pengalaman.map((data, index) => (
-              <Card key={index} className="mb-4 mx-4">
+              <Card key={index} className="mb-4">
                 <CardHeader className="flex gap-3">
                   <div className="flex justify-between w-full">
                     <div className="text-left">

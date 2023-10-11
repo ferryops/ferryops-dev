@@ -18,7 +18,7 @@ export default function RepoPage() {
       .then((response) => {
         setRepos(response.data);
         interval = setInterval(() => {
-          setValue((v) => (v >= 100 ? 0 : v + 15));
+          setValue((v) => (v >= 100 ? 0 : v + 8));
         }, 500);
         setTimeout(() => {
           clearInterval(interval);

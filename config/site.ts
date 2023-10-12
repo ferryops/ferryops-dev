@@ -90,5 +90,8 @@ export const siteConfig = {
     { quotes: "Biar hanya permainan, kamu tidak boleh curang.", creator: "Doraemon" },
     { quotes: "Agar tali silaturahmi tidak terputus, pinjam dulu seratus", creator: "kang pinjam" },
     { quotes: "Puh sepuh, ajarin dong puh", creator: "yondatau" },
+    { quotes: "Not how long, but how well you have lived is the main thing.", creator: "Seneca" },
+    { quotes: "The unexamined life is not worth living.", creator: "Socrates" },
+    { quotes: "Turn your wounds into wisdom.", creator: "Oprah Winfrey" },
   ],
 };

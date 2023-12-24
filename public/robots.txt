@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ferryops.dev
+
+# Sitemaps
+Sitemap: https://www.ferryops.dev/sitemap.xml

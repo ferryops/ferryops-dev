@@ -5,32 +5,32 @@ import { GithubIcon } from "@/components/icons";
 import DefaultLayout from "@/layouts/default";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Image, CircularProgress } from "@nextui-org/react";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Divider,
+  Link,
+  Image,
+  CircularProgress,
+} from "@nextui-org/react";
 
 export default function RepoPage() {
   const [repos, setRepos] = useState([]);
-  const [value, setValue] = useState(0);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    let interval: any;
+    setLoading(true);
     axios
       .get("https://api.github.com/users/ferryops/repos")
       .then((response) => {
         setRepos(response.data);
-        interval = setInterval(() => {
-          setValue((v) => (v >= 100 ? 0 : v + 8));
-        }, 500);
-        setTimeout(() => {
-          clearInterval(interval);
-          setLoading(false);
-        }, 3000);
+        setLoading(false);
       })
       .catch((error) => {
         console.log(error);
-        setLoading(true);
+        setLoading(false);
       });
-
-    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -40,7 +40,6 @@ export default function RepoPage() {
           <CircularProgress
             aria-label="Loading..."
             size="lg"
-            value={value}
             color="warning"
             showValueLabel={true}
             label="fetching data bentar ya gan.. &#128513;"
@@ -54,7 +53,13 @@ export default function RepoPage() {
                 {repos.map((data: any, index: number) => (
                   <Card key={index} className="max-w-[400px]">
                     <CardHeader className="flex gap-3">
-                      <Image alt="nextui logo" height={40} radius="sm" src={data.owner.avatar_url} width={40} />
+                      <Image
+                        alt="nextui logo"
+                        height={40}
+                        radius="sm"
+                        src={data.owner.avatar_url}
+                        width={40}
+                      />
                       <div className="flex flex-col text-left">
                         <p className="text-md">{data.name}</p>
                         <p className="text-small text-default-500">{data.language}</p>

@@ -8,9 +8,10 @@ export const siteConfig = {
       label: "Home",
       href: "/",
     },
+
     {
-      label: "Blog",
-      href: "https://blog.ferryops.dev/",
+      label: "Artikel",
+      href: "/artikel",
     },
     {
       label: "Repo",
@@ -84,7 +85,8 @@ export const siteConfig = {
   quotes: [
     { quotes: "Selama manusia ada, benci juga akan ada", creator: "Pain" },
     {
-      quotes: "Aku akan menghancurkan Kutukan itu. Jika memang ada hal yang bernama perdamaian, aku akan menemukannya!",
+      quotes:
+        "Aku akan menghancurkan Kutukan itu. Jika memang ada hal yang bernama perdamaian, aku akan menemukannya!",
       creator: "Pain",
     },
     { quotes: "Biar hanya permainan, kamu tidak boleh curang.", creator: "Doraemon" },

@@ -4,7 +4,16 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import DefaultLayout from "@/layouts/default";
-import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Image, Chip } from "@nextui-org/react";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Divider,
+  Link,
+  Image,
+  Chip,
+} from "@nextui-org/react";
 
 export default function ResumePage() {
   return (
@@ -17,8 +26,9 @@ export default function ResumePage() {
           <h4 className={subtitle({ class: "mt-4" })}>Software Engineer | Blogger 🚀</h4>
           <article className="flex flex-col gap-2 max-w-4xl">
             <span>
-              Halo, aku Ferry, suka mencoba sesuatu hal yang baru, kesibukan saat ini sebagai web developer, aku juga menekuni
-              dunia open source dan juga aktif menulis tutorial di web pribadi ataupun forum diskusi.
+              Halo, aku Ferry, suka mencoba sesuatu hal yang baru, kesibukan saat ini sebagai web
+              developer, aku juga menekuni dunia open source dan juga aktif menulis tutorial di web
+              pribadi ataupun forum diskusi.
             </span>
             <h4 className={subtitle()}>Pengalaman Kerja &#9203;</h4>
             {siteConfig.pengalaman.map((data, index) => (

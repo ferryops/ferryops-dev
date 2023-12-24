@@ -28,8 +28,8 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Blog",
-      href: "https://blog.ferryops.dev/",
+      label: "Artikel",
+      href: "/artikel",
     },
     {
       label: "Repo",
@@ -43,7 +43,7 @@ export const siteConfig = {
   links: {
     github: "https://github.com/ferryops",
     twitter: "https://twitter.com/ferryafbi",
-    docs: "https://blog.ferryops.dev/",
+    docs: "https://dev.to/ferryops/",
     discord: "#",
     myLove: "/hehe",
   },

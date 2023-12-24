@@ -95,10 +95,9 @@ export const Navbar = () => {
             as={Link}
             className="text-sm font-normal text-default-600 bg-default-100"
             href={siteConfig.links.myLove}
-            startContent={<HeartFilledIcon className="text-danger" />}
             variant="flat"
           >
-            My Love
+            &#128308; Jangan Klik
           </Button>
         </NavbarItem>
       </NavbarContent>

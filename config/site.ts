@@ -45,7 +45,7 @@ export const siteConfig = {
     twitter: "https://twitter.com/ferryafbi",
     docs: "https://blog.ferryops.dev/",
     discord: "#",
-    myLove: "#",
+    myLove: "/hehe",
   },
 
   pengalaman: [

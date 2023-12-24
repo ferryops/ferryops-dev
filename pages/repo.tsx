@@ -14,6 +14,7 @@ import {
   Link,
   Image,
   CircularProgress,
+  Avatar,
 } from "@nextui-org/react";
 
 export default function RepoPage() {
@@ -53,13 +54,7 @@ export default function RepoPage() {
                 {repos.map((data: any, index: number) => (
                   <Card key={index} className="max-w-[400px]">
                     <CardHeader className="flex gap-3">
-                      <Image
-                        alt="nextui logo"
-                        height={40}
-                        radius="sm"
-                        src={data.owner.avatar_url}
-                        width={40}
-                      />
+                      <Avatar alt="Ferry Ganteng" src={data.owner.avatar_url} />
                       <div className="flex flex-col text-left">
                         <p className="text-md">{data.name}</p>
                         <p className="text-small text-default-500">{data.language}</p>

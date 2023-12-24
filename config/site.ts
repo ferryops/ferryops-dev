@@ -51,10 +51,11 @@ export const siteConfig = {
   pengalaman: [
     {
       company: "Minergo Systems",
-      position: "JavaScript Developer",
+      position: "Systems Development Engineer",
       duration: "Aug 2023 - Present",
-      tools: ["React.js", "Node.js", "GIS", "MySQL"],
-      description: "Merancang antarmuka web, Mengembangkan Back-End dan Integrasi API.",
+      tools: ["React.js", "Redux.js", "Node.js", "GIS", "MySQL"],
+      description:
+        "Merancang antarmuka web yang responsive, membuat dan memelihara RESTful APIs, mengintegrasikan berbagai sistem dan layanan pihak ketiga melalui API atau protokol lainnya, melakukan riset telematika dan IoT untuk industri pertambangan.",
     },
     {
       company: "PT Media Kreasi Abadi",

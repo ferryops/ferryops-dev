@@ -26,9 +26,9 @@ export default function ResumePage() {
           <h4 className={subtitle({ class: "mt-4" })}>Software Engineer | Blogger 🚀</h4>
           <article className="flex flex-col gap-2 max-w-4xl">
             <span>
-              Halo, aku Ferry, suka mencoba sesuatu hal yang baru, kesibukan saat ini sebagai web
-              developer, aku juga menekuni dunia open source dan juga aktif menulis tutorial di web
-              pribadi ataupun forum diskusi.
+              Halo, aku Ferry, suka mencoba sesuatu hal yang baru, kesibukan saat ini sebagai
+              fulltime web developer, freelancer dan juga aktif menulis tutorial di web pribadi
+              ataupun forum diskusi.
             </span>
             <h4 className={subtitle()}>Pengalaman Kerja &#9203;</h4>
             {siteConfig.pengalaman.map((data, index) => (
@@ -39,7 +39,6 @@ export default function ResumePage() {
                       <p className="text-md">{data.position}</p>
                       <p className="text-small text-default-500">{data.duration}</p>
                     </div>
-
                     <p className="text-small text-default-500">{data.company}</p>
                   </div>
                 </CardHeader>

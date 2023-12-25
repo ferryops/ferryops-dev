@@ -12,7 +12,6 @@ import {
   CardFooter,
   Divider,
   Link,
-  Image,
   CircularProgress,
   Chip,
   Avatar,
@@ -28,7 +27,6 @@ export default function Artikel() {
       .get("/api/devTo")
       .then((response) => {
         setArticles(response.data.data);
-        console.log(response.data.data);
         setLoading(false);
       })
 
@@ -57,7 +55,7 @@ export default function Artikel() {
                 {articles.map((data: any) => (
                   <Link key={data.id} href={`https://dev.to${data.path}`} target="_blank">
                     <Card className="mb-4 hover:border-1 hover:cursor-pointer w-full">
-                      <CardHeader className="flex gap-3">
+                      <CardHeader className="flex justify-between">
                         <div className="flex w-full gap-4">
                           <Avatar src={data.user.profile_image_90} />
                           <div className="text-left">
@@ -65,21 +63,19 @@ export default function Artikel() {
                             <p className="text-small text-default-500">{data.user.username}</p>
                           </div>
                         </div>
+                        <span className="text-small text-default-500 w-auto whitespace-nowrap">{data.readable_publish_date}</span>
                       </CardHeader>
                       <Divider />
                       <CardBody>
                         <p className="text-md font-bold">{data.title}</p>
                       </CardBody>
                       <Divider />
-                      <CardFooter className="flex justify-between">
-                        <div>
-                          {data.tag_list.map((tag: any, i: number) => (
-                            <Chip key={i} color="primary" size="sm" className="mr-2">
-                              {tag}
-                            </Chip>
-                          ))}
-                        </div>
-                        <span className="p-0 font-light">{data.readable_publish_date}</span>
+                      <CardFooter className="flex gap-1 flex-wrap">
+                        {data.tag_list.map((tag: any, i: number) => (
+                          <Chip key={i} color="primary" size="sm">
+                            {tag}
+                          </Chip>
+                        ))}
                       </CardFooter>
                     </Card>
                   </Link>

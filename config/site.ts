@@ -39,13 +39,17 @@ export const siteConfig = {
       label: "Resume",
       href: "/resume",
     },
+    {
+      label: "Jangan Klik",
+      href: "/jangan-klik",
+    },
   ],
   links: {
     github: "https://github.com/ferryops",
     twitter: "https://twitter.com/ferryafbi",
     docs: "https://dev.to/ferryops/",
     discord: "#",
-    myLove: "/hehe",
+    myLove: "/jangan-klik",
   },
 
   pengalaman: [

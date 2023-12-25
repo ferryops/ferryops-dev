@@ -16,7 +16,7 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
           title="ferry blog"
         >
           <span className="text-default-600">ferryops.dev 🌟</span>
-          <p className="text-primary">Dibuat dengan Next.js dan TailwindCSS</p>
+          <p className="text-primary text-center">Dibuat dengan Next.js dan TailwindCSS</p>
         </Link>
       </footer>
     </div>

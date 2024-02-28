@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "https://ferryops.dev/",
+    url: "https://www.ferryops.dev/",
   },
   sitemap: {
     sources: ["/content/"],

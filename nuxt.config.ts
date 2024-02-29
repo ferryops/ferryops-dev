@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   extends: "content-wind",
-  modules: ["@nuxtjs/sitemap", "@nuxthq/studio"],
+  modules: ["@nuxtjs/sitemap"],
   nitro: {
     prerender: {
       crawlLinks: true,

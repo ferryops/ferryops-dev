@@ -8,7 +8,6 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@nuxthq/studio": "^1.0.12",
     "@nuxtjs/sitemap": "^5.1.0",
     "content-wind": "latest",
     "nuxt": "latest"

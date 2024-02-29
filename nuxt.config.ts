@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   extends: "content-wind",
-  modules: ["@nuxtjs/sitemap"],
+  modules: ["@nuxtjs/sitemap", "@nuxthq/studio"],
   nitro: {
     prerender: {
       crawlLinks: true,
@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "https://www.ferryops.dev/",
+    url: "https://ferryops.dev/",
   },
   sitemap: {
     sources: ["/content/"],

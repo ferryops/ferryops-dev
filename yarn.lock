@@ -1140,7 +1140,7 @@
     vite-plugin-checker "^0.6.4"
     vue-bundle-renderer "^2.0.0"
 
-"@nuxthq/studio@^1.0.10":
+"@nuxthq/studio@^1.0.10", "@nuxthq/studio@^1.0.12":
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/@nuxthq/studio/-/studio-1.0.12.tgz#d13221fd029349bd8fd947fa10b4d4d4c7572586"
   integrity sha512-3Ak5reS5B6onFg41dgB8a5vcZRXeoSIlReHDiWghz7gMjlpE0cGSAdu/xYcOZvHWgjOKVhPAQ6zNwUbUvBlU1w==

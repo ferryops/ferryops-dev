@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "ferryops.dev",
-  tagline: "Membahas Teknologi Terkini dan Jasa Buat Web/Program",
+  tagline: "Membahas Teknologi Terkini dan Menyediakan Jasa Buat Web/Program",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -58,7 +58,7 @@ const config: Config = {
     navbar: {
       title: "ferryops.dev",
       logo: {
-        alt: "Membahas Teknologi Terkini dan Jasa Buat Web/Program",
+        alt: "Membahas Teknologi Terkini dan Menyediakan Jasa Buat Web/Program",
         src: "img/logo.svg",
       },
       items: [
@@ -136,7 +136,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ferryops.dev, Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Built with Love by ferryops.dev`,
     },
     prism: {
       theme: prismThemes.github,

@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "ferryops.dev",
-  tagline: "Membahas Teknologi Terkini dan Menyediakan Jasa Buat Web/Program",
+  tagline: "Membahas Hal Random Seputar Teknologi",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -58,7 +58,7 @@ const config: Config = {
     navbar: {
       title: "ferryops.dev",
       logo: {
-        alt: "Membahas Teknologi Terkini dan Menyediakan Jasa Buat Web/Program",
+        alt: "Membahas Hal Random Seputar Teknologi",
         src: "img/logo.svg",
       },
       items: [

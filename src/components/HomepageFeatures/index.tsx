@@ -4,33 +4,41 @@ import styles from "./styles.module.css";
 
 type FeatureItem = {
   title: string;
-  Image: string; // Menggunakan string untuk alamat gambar PNG
+  Image: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Teknologi Terkini",
+    title: "Blog dan Kreativitas",
     Image: "img/newspaper.png",
-    description: <>Temukan wawasan terbaru tentang teknologi terkini dan tren industri dari para ahli.</>,
-  },
-  {
-    title: "Pembuatan Program",
-    Image: "img/programming.png",
     description: (
       <>
-        Membutuhkan solusi perangkat lunak khusus? Kami menyediakan layanan pembuatan program yang disesuaikan dengan kebutuhan
-        Anda.
+        Selamat datang di blog yang penuh inspirasi ini! Temukan cerita-cerita menarik dan informasi terbaru seputar teknologi.
+        Dari pemrograman yang mendalam hingga ide-ide kreatif yang inovatif, saya akan membawa Anda dalam perjalanan yang
+        menggugah pikiran melalui dunia teknologi.
       </>
     ),
   },
   {
-    title: "Fokus pada Inovasi",
+    title: "Rangkaian Kode",
+    Image: "img/programming.png",
+    description: (
+      <>
+        Mari kita jelajahi dunia pemrograman dengan langkah-langkah yang jelas dan pemahaman yang mendalam. Dari konsep dasar
+        hingga proyek-proyek praktis, blog ini menjadi panduan Anda dalam mempelajari bahasa pemrograman dan mengembangkan
+        keterampilan teknis Anda.
+      </>
+    ),
+  },
+  {
+    title: "Idea di Balik Kode",
     Image: "img/idea.png",
     description: (
       <>
-        Fokuslah pada inovasi Anda. Kami akan membantu Anda mengelola sisi teknisnya, sehingga Anda bisa fokus pada ide-ide
-        brilian Anda.
+        Dibalik setiap baris kode, terdapat ide-ide yang kreatif dan inovatif. Mari kita telusuri inspirasi di balik teknologi,
+        dari desain UI yang menarik hingga konsep-konsep revolusioner. Blog ini mengajak Anda untuk menjelajahi potensi kreatif
+        Anda dalam dunia digital.
       </>
     ),
   },
